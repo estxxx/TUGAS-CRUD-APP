@@ -13,7 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <form action="dashboard.html">
+        <form action="dashboard.php">
             <h1>Login</h1>
             <div class="input-box">
                 <input type="text" placeholder="Username" required>

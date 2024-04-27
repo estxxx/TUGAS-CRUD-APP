@@ -102,7 +102,38 @@ table th, table td {
     border: 1px solid #ddd;
     padding: 8px;
 }
-  
+
+/* Mengatur lebar kolom */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 20%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 30%;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    width: 10%;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    width: 10%;
+}
+
 #add-post-btn {
     background-color: rgb(73, 17, 70);
     color: white;
@@ -156,4 +187,3 @@ table th, table td {
     cursor: pointer;
 }
 
-  
