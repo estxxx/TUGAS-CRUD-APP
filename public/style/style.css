@@ -8,11 +8,11 @@
 }
 
 body{
+    background: #F8E6E8;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100hv;
-    background: #F8E6E8;
 }
 
 .wrapper {
@@ -41,7 +41,7 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgb(255, 255, 255, .2);
+    border: 2px solid rgb(247, 243, 243);
     border-radius: 40px;
     font-size: 16px;
     color: white;

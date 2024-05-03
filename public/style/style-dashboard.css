@@ -103,6 +103,17 @@ table th, table td {
     padding: 8px;
 }
 
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+
+}
+td img {
+    max-width: 100px; /* Menentukan lebar maksimum gambar */
+    max-height: 100px; /* Menentukan tinggi maksimum gambar */
+    border-radius: 5px; /* Mengatur sudut lengkung pada gambar (opsional) */
+}
+
 /* Mengatur lebar kolom */
 th:nth-child(1),
 td:nth-child(1) {
